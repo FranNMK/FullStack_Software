@@ -1,0 +1,49 @@
+body {
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* main {
+background-color: chartreuse;
+width: 50%;
+} */
+/* p {
+    background-color: lightcoral;
+}
+
+.opposite {
+    display:inline-block ;
+    background-color: black;
+    color: whitesmoke;
+    margin-top: 100px;
+    height: 200px;
+    padding: 4rem;
+} */
+
+ul {
+    list-style-type: none;
+    padding: 0.5rem;
+    text-align: right;
+     background-color: rgb(32, 218, 103);
+     margin: 0;
+}
+
+li {
+    display: inline-block;
+    margin-inline: 0.5rem ;
+}
+
+li a{
+    color: gold;
+    text-decoration: none;
+}
+
+li a:hover, li a:focus {
+    text-decoration: underline;
+}
